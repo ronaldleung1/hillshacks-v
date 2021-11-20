@@ -64,15 +64,16 @@ const Index = (props) => (
         />
         <Heading mt={16} variant="subtitle" color="white">There's never been a better time to build. <b>And the world has never needed it more than now.</b></Heading>
         <Heading variant="subtitle" color="white">June 5, 2021</Heading>
-        <Button variant="lg" as="a" target="_blank" my={2}
-  href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register</Button>
+        {/*<Button variant="lg" as="a" target="_blank" my={2}
+  href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register</Button>*/}
+        <Button variant="lg" my={2}>Registration Opens 12/1</Button>
       </Container>
     </Box>
     <Container as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{fontSize: "40px"}}>This is not your typical hackathon.</Heading>
       <Text as="p" sx={{fontSize: 2}} mb={3}><b>hillsHacks was born with a mission:</b> to show that computer science is something anyone can learn. It's more than memorizing technical jargon and stuffing code into machines. CS is for innovators, creators, problem solvers, artists, and <i>you</i>.</Text>
       <Text as="p" sx={{fontSize: 2}} mb={3}>Rather than leave you alone expecting a full-fledged product launch at the end of the day, we'll guide you through the learning process with <b>workshops</b> from Watchung Hills alumni. Plus, we'll provide you one-on-one <b>mentorship</b> and an opportunity to listen in and ask questions about tech during our <b>Panel Q&A</b> session. Deviating from the traditional hackathon, there will be two tracks: <b>code</b> and <b>no-code</b>, with a greater emphasis on ideas and how technology can be used for good. Participants can win generous cash <b>prizes</b>, too!</Text>
-      <Text variant="lead"><b>This is the fourth iteration of hillsHacks, Watchung Hills' premier hackathon open to grades 6 through 12.</b></Text>
+      <Text variant="lead"><b>This is the fifth iteration of hillsHacks, Watchung Hills' premier hackathon open to students grades 6 through 12.</b></Text>
       <br/>
     </Container>
     <Container as="section" py={4} variant="copy" {...props}>
@@ -123,7 +124,7 @@ const Index = (props) => (
         </Box>
         <Box>
           <h2>When will hillsHacks be?</h2>
-          <p>The event will take place on <b>Saturday, June 5, from 1:00 PM to 5:00 PM.</b> We've got an action-packed schedule ahead, so sign up now! (see below for details)</p>
+          <p>The event will take place on <b>Sunday, February 6th</b> (exact time TBD). We've got an action-packed schedule ahead, so sign up now! (see below for details)</p>
         </Box>
         <Box>
           <h2>How much does this cost?</h2>
@@ -150,7 +151,8 @@ const Index = (props) => (
     </Container>
     <Container as="section" sx={{textAlign: "center"}} py={4} {...props}>
       <Heading variant="headline" mb={4}>Schedule</Heading>
-      <Container variant="copy" sx={{textAlign: "left"}}>
+      <Text>Coming soon! Check back later for details.</Text>
+      {/*<Container variant="copy" sx={{textAlign: "left"}}>
         <Event
           from="1:00" to="1:30"
           name="Opening Ceremony and Panel Discussion"
@@ -193,7 +195,7 @@ const Index = (props) => (
           name="Closing Ceremony"
           description="hillsHacks wraps up with an announcement of the winners and distribution of prizes!"
         />
-      </Container>
+      </Container>*/}
     </Container>
     <Container as="section" py={4} {...props}>
       <Card>
@@ -203,15 +205,16 @@ const Index = (props) => (
             <Heading variant="subtitle">Registration is free and only takes a minute!</Heading>
           </Box>
           <Box sx={{alignSelf: "center"}}>
-          <Button variant="lg" as="a" target="_blank"  mr={4}
-  href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register Now</Button>
+          {/*<Button variant="lg" as="a" target="_blank"  mr={4}
+  href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register Now</Button>*/}
+          <Button variant="lg" mr={4}>Registration Opens 12/1</Button>
           </Box>
         </Flex>
       </Card>
     </Container>
     <footer sx={{textAlign: "center", padding: 4}}>
-      <Text as="p" mb={2} sx={{fontSize: 1}}>Created with &#x3C;3 by hillsHacks. See the <Link href="https://github.com/googol88/hillshacks-iv">source</Link>.</Text>
-      <Text as="p" sx={{fontSize: 1, color: "muted"}}>© Copyright 2021 hillsHacks</Text>
+      <Text as="p" mb={2} sx={{fontSize: 1}}>Created with &#x3C;3 by hillsHacks. See the <Link href="https://github.com/googol88/hillshacks-v">source</Link>.</Text>
+      <Text as="p" sx={{fontSize: 1, color: "muted"}}>© Copyright 2022 hillsHacks</Text>
     </footer>
   </>
 )

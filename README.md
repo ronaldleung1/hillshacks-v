@@ -1,7 +1,8 @@
-# hillsHacks IV
+# hillsHacks V
 
-The source of the website powering hillsHack's fourth annual hackathon. Made with Next.js and Theme UI.
+The source of the website powering hillsHack's fifth annual hackathon. Made with Next.js and Theme UI.
 
+See the [source](https://github.com/googol88/hillshacks-iv) of last year's website
 
 [next.js]: https://nextjs.org
 [mdx]: https://mdxjs.com
