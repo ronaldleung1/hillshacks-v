@@ -14,10 +14,12 @@ import {
   Link
 } from 'theme-ui';
 import Event from "../components/event"
+import Nav from "../components/nav"
 import React from 'react';
 
 const Index = (props) => (
   <>
+    <Nav />
     <Box 
       bg="sunken" 
       sx={{

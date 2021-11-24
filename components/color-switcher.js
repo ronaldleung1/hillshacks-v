@@ -7,10 +7,7 @@ const ColorSwitcher = (props) => {
       onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
       title={`Switch to ${mode === 'dark' ? 'light' : 'dark'} mode`}
       sx={{
-        position: 'absolute',
         zIndex: 999,
-        top: [2, 3],
-        right: [2, 3],
         color: 'primary',
         cursor: 'pointer',
         borderRadius: 'circle',
