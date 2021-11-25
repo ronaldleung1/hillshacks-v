@@ -1,11 +1,12 @@
 import { IconButton, useColorMode } from 'theme-ui'
+import { Moon, Sun } from 'react-feather'
 
 const ColorSwitcher = (props) => {
   const [mode, setMode] = useColorMode()
   return (
     <IconButton
-      onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
-      title={`Switch to ${mode === 'dark' ? 'light' : 'dark'} mode`}
+      onClick={() => setMode(mode === 'default' ? 'dark' : 'default')}
+      title={`Switch to ${mode === 'default' ? 'dark' : 'default'} mode`}
       sx={{
         zIndex: 999,
         color: 'primary',
@@ -13,23 +14,17 @@ const ColorSwitcher = (props) => {
         borderRadius: 'circle',
         transition: 'box-shadow .125s ease-in-out',
         ':hover,:focus': {
-          boxShadow: '0 0 0 3px',
+          boxShadow: '0 0 0 2px',
           outline: 'none'
         }
       }}
       {...props}
     >
-      <svg viewBox="0 0 32 32" width={24} height={24} fill="currentcolor">
-        <circle
-          cx={16}
-          cy={16}
-          r={14}
-          fill="none"
-          stroke="currentcolor"
-          strokeWidth={4}
-        />
-        <path d="M 16 0 A 16 16 0 0 0 16 32 z" />
-      </svg>
+      {mode === 'default' ? (
+        <Moon size={32} sx={{ fill: 'currentColor' }} />
+      ) : (
+        <Sun size={32} sx={{ fill: 'currentColor' }} />
+      )}
     </IconButton>
   )
 }
