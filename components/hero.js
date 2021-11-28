@@ -42,8 +42,8 @@ const Hero = props => (
           WebkitUserDrag: 'none'
         }}
       />
-      <Heading mt={16} variant="subtitle" color="white">There's never been a better time to build. <b>And the world has never needed it more than now.</b></Heading>
-      <Heading variant="subtitle" color="white">June 5, 2021</Heading>
+      <Heading mt={16} variant="subtitle" color="white"><b>Reaching New Heights</b></Heading>
+      <Heading variant="subtitle" color="white">February 6, 2021</Heading>
       {/*<Button variant="lg" as="a" target="_blank" my={2}
     href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register</Button>*/}
       <Button variant="lg" my={2}>Registration Opens 12/1</Button>
