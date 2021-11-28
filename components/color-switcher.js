@@ -9,7 +9,7 @@ const ColorSwitcher = (props) => {
       title={`Switch to ${mode === 'default' ? 'dark' : 'default'} mode`}
       sx={{
         zIndex: 999,
-        color: 'primary',
+        color: 'currentColor',
         cursor: 'pointer',
         borderRadius: 'circle',
         transition: 'box-shadow .125s ease-in-out',
