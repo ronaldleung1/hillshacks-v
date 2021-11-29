@@ -70,7 +70,7 @@ const Meta = ({
       href={`${url}/favicon-16x16.png`}
     />
     <link key="manifest" rel="manifest" href={`${url}/site.webmanifest`} />
-    <link href="https://api.fontshare.com/css?f[]=supreme@400,700&f[]=clash-display@400,700&display=swap" rel="stylesheet" />
+    <link href="https://api.fontshare.com/css?f[]=cabinet-grotesk@400,700&f[]=general-sans@400,401,700&display=swap" rel="stylesheet" />
     {children}
     <script src='https://analytics.stacc.cc/api/script/dEt0JztJ88lj'></script>
   </Head>
