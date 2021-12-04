@@ -44,7 +44,7 @@ const Hero = props => (
       <Heading variant="subtitle" color="white">February 6, 2022</Heading>
       {/*<Button variant="lg" as="a" target="_blank" my={2}
     href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register</Button>*/}
-      <Button variant="lg" my={2}>Registration Opens 12/1</Button>
+      <Button variant="lg" my={2}>Registration Opens Soon</Button>
     </Container>
   </Box> 
 )

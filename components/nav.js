@@ -33,7 +33,10 @@ const Nav = props => {
           <NavLink href="#schedule" p={2}>
             Schedule
           </NavLink>
-          <NavDropdown label="Previous Years">
+          <NavLink href="https://2021.hillshacks.com/" p={2}>
+            2021 Site
+          </NavLink>
+          {/*<NavDropdown label="Previous Years">
             <NavLink href="#!">
               2020 
             </NavLink>
@@ -46,7 +49,7 @@ const Nav = props => {
             <NavLink href="#!">
               2017
             </NavLink>
-          </NavDropdown>
+          </NavDropdown>*/}
         </Box>
         <ColorSwitcher mr={3}/>
       </Flex>

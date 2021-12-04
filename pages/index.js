@@ -164,7 +164,7 @@ const Index = (props) => (
           <Box sx={{alignSelf: "center"}}>
           {/*<Button variant="lg" as="a" target="_blank"  mr={4}
   href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register Now</Button>*/}
-          <Button variant="lg" mr={4}>Registration Opens 12/1</Button>
+          <Button variant="lg" mr={4}>Registration Opens Soon</Button>
           </Box>
         </Flex>
       </Card>
