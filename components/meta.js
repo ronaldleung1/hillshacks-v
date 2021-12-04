@@ -37,7 +37,7 @@ const Meta = ({
         <meta key="tw_img" name="twitter:image" content={image} />
       </>
     )}
-    <meta key="theme_color" name="theme-color" content={theme.colors.primary} />
+    <meta key="theme_color" name="theme-color" content={theme.colors.background} />
     <meta
       key="tile_color"
       name="msapplication-TileColor"

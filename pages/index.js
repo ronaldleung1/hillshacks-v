@@ -23,7 +23,7 @@ const Index = (props) => (
     <Nav />
     <Hero />
 
-    <Container as="section" py={4} variant="copy" {...props}>
+    <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{fontSize: "40px"}}>This is not your typical hackathon.</Heading>
       <Text as="p" sx={{fontSize: 2}} mb={3}><b>hillsHacks was born with a mission:</b> to show that computer science is something anyone can learn. It's more than memorizing technical jargon and stuffing code into machines. CS is for innovators, creators, problem solvers, artists, and <i>you</i>.</Text>
       <Text as="p" sx={{fontSize: 2}} mb={3}>Rather than leave you alone expecting a full-fledged product launch at the end of the day, we'll guide you through the learning process with <b>workshops</b> from Watchung Hills alumni. Plus, we'll provide you one-on-one <b>mentorship</b> and an opportunity to listen in and ask questions about tech during our <b>Panel Q&A</b> session. Deviating from the traditional hackathon, there will be two tracks: <b>code</b> and <b>no-code</b>, with a greater emphasis on ideas and how technology can be used for good. Participants can win generous cash <b>prizes</b>, too!</Text>
@@ -65,7 +65,7 @@ const Index = (props) => (
         />
       </Grid>
     </Container>
-    <Container as="section" py={4} {...props}>
+    <Container id="faq" as="section" py={4} {...props}>
       <Heading variant="headline">FAQ</Heading>
       <Grid sx={{columnGap: 4}} columns={[1, null, 2]}>
         <Box>
@@ -103,7 +103,7 @@ const Index = (props) => (
       </Grid>
       <br/>
     </Container>
-    <Container as="section" sx={{textAlign: "center"}} py={4} {...props}>
+    <Container id="schedule" as="section" sx={{textAlign: "center"}} py={4} {...props}>
       <Heading variant="headline" mb={4}>Schedule</Heading>
       <Text>Coming soon! Check back later for details.</Text>
       {/*<Container variant="copy" sx={{textAlign: "left"}}>

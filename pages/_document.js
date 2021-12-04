@@ -1,3 +1,5 @@
+/** @jsxImportSource theme-ui */
+
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { InitializeColorMode } from 'theme-ui'
 
@@ -11,7 +13,14 @@ export default class extends Document {
     return (
       <Html lang="en-US">
         <Head />
-        <body>
+        <body
+          sx={{
+            "&::before" : {
+              display: "block",
+              content: "''",
+              height: "72px"
+            }
+          }}>
           <InitializeColorMode />
           <Main />
           <NextScript />

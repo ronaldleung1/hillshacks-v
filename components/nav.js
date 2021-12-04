@@ -15,6 +15,7 @@ const Nav = props => {
         position: "fixed",
         left: 0,
         right: 0,
+        top: 0,
         zIndex: 999,
       }}
     >
@@ -23,13 +24,13 @@ const Nav = props => {
           <NavLink href="#!" p={2}>
             Register
           </NavLink>
-          <NavLink href="#!" p={2}>
+          <NavLink href="#about" p={2}>
             About
           </NavLink>
-          <NavLink href="#!" p={2}>
+          <NavLink href="#faq" p={2}>
             FAQ
           </NavLink>
-          <NavLink href="#!" p={2}>
+          <NavLink href="#schedule" p={2}>
             Schedule
           </NavLink>
           <NavDropdown label="Previous Years">
