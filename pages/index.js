@@ -13,7 +13,6 @@ import {
   Flex,
   Link
 } from 'theme-ui';
-// import Event from "../components/event";
 import Nav from "../components/nav";
 import Hero from "../components/hero";
 import React from 'react';
@@ -74,11 +73,11 @@ const Index = (props) => (
         </Box>
         <Box>
           <h2>Where will the event take place?</h2>
-          <p>hillsHacks will run as a hybrid event. <b>All attendees</b> may attend in-person at the high school or virtually via Zoom. Even though things will be different this year, we'll strive for an authentic experience that retains the spirit of hacking!</p>
+          <p>hillsHacks is returning as a fully in-person event at Watchung Hills Regional High School!</p>
         </Box>
         <Box>
           <h2>When will hillsHacks be?</h2>
-          <p>The event will take place on <b>Sunday, February 6th</b> (exact time TBD). We've got an action-packed schedule ahead, so sign up now! (see below for details)</p>
+          <p>The event will take place on <b>Sunday, February 6th</b> (exact time TBD). We've got an action-packed schedule ahead, so sign up now! {/*(see below for details)*/}</p>
         </Box>
         <Box>
           <h2>How much does this cost?</h2>
@@ -97,9 +96,13 @@ const Index = (props) => (
           <p>Absolutely! As part of the hackathon you can work solo or in teams of up to four individuals. Teams will be formed prior to the event, so make sure all members sign up!</p>
         </Box>
         <Box>
+          <h2>When will registrations open?</h2>
+          <p>We will shortly be rolling out the full event registration, but for now you can pre-register so we can notify you when it opens!</p>
+        </Box>
+        {/*<Box>
           <h2>When do I have to register by?</h2>
           <p>The signup form will remain open until <b>June 4th</b> at noon. This is so we can get a better feel of who will be attending.</p>
-        </Box>
+        </Box>*/}
       </Grid>
       <br/>
     </Container>
