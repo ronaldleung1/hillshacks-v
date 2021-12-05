@@ -46,7 +46,7 @@ const Meta = ({
     <link
       key="safari_icon"
       rel="mask-icon"
-      href={`${url}/safari-pinned-tab.png`}
+      href={`${url}/safari-pinned-tab.svg`}
       color={theme.colors.primary}
     />
     <link
