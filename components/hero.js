@@ -17,19 +17,17 @@ const Hero = props => (
     }}
     {...props}
   >
-    {/*<Image
-      src="/hexagons.svg"
+    <Image
+      src="/mountains.svg"
       alt="hillsHacks Logo"
       sx={{
         position: 'absolute',
         width: ['300px', '400px', '500px', '600px'],
-        left: `-${4}em`,
-        top: [4, 4, 2],
-        transform: 'rotate(180deg)',
+        
         userDrag: 'none',
         WebkitUserDrag: 'none'
       }}
-    />*/}
+    />
     <Container as="section" py={6} variant="copy" sx={{position: 'relative'}} {...props}>
       <Image
         src="/logo.png"
