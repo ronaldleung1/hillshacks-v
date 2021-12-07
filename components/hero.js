@@ -16,7 +16,7 @@ const Hero = props => (
     }}
     {...props}
   >
-    <Image
+    {/*<Image
       src="/mountains.svg"
       alt="hillsHacks Logo"
       sx={{
@@ -26,7 +26,7 @@ const Hero = props => (
         userDrag: 'none',
         WebkitUserDrag: 'none'
       }}
-    />
+    />*/}
     <Container as="section" py={6} variant="copy" sx={{position: 'relative'}} {...props}>
       <Image
         src="/logo.png"
@@ -39,9 +39,8 @@ const Hero = props => (
       />
       <Heading mt={16} variant="subtitle" color="white"><b>Reaching New Heights</b></Heading>
       <Heading variant="subtitle" color="white">February 6, 2022</Heading>
-      {/*<Button variant="lg" as="a" target="_blank" my={2}
-    href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register</Button>*/}
-      <Button variant="lg" my={2}>Registration Opens Soon</Button>
+      <Button variant="lg" as="a" target="_blank" my={2}
+    href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link">Pre-Register Now!</Button>
     </Container>
   </Box> 
 )

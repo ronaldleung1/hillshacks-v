@@ -1,6 +1,6 @@
 import { Flex, Box, NavLink } from 'theme-ui';
 import ColorSwitcher from '../components/color-switcher';
-import NavDropdown from '../components/nav-dropdown';
+// import NavDropdown from '../components/nav-dropdown';
 
 const Nav = props => {
   return (
@@ -21,7 +21,7 @@ const Nav = props => {
     >
       <Flex sx={{maxWidth: "layout", mx: "auto", alignItems: "center"}} {...props}>
         <Box sx={{flex: '1 1 auto', justifyContent: "", margin: '3'}}>
-          <NavLink href="#!" p={2}>
+          <NavLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link" p={2}>
             Register
           </NavLink>
           <NavLink href="#about" p={2}>

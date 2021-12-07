@@ -162,9 +162,8 @@ const Index = (props) => (
             <Heading variant="subtitle">Registration is free and only takes a minute!</Heading>
           </Box>
           <Box sx={{alignSelf: "center"}}>
-          {/*<Button variant="lg" as="a" target="_blank"  mr={4}
-  href="https://docs.google.com/forms/d/e/1FAIpQLScEaeNmtv_REsOml_Odf0YShWCTSifJbTEXVpzvAyvCXTrzMw/viewform?usp=sf_link">Register Now</Button>*/}
-          <Button variant="lg" mr={4}>Registration Opens Soon</Button>
+          <Button variant="lg" as="a" target="_blank"  mr={4}
+  href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link">Pre-Register Now</Button>
           </Box>
         </Flex>
       </Card>
