@@ -1,4 +1,4 @@
-import { Flex, Box, NavLink } from 'theme-ui';
+import { Flex, Box, Image, Container, NavLink } from 'theme-ui';
 import ColorSwitcher from '../components/color-switcher';
 // import NavDropdown from '../components/nav-dropdown';
 
@@ -19,40 +19,43 @@ const Nav = props => {
         zIndex: 999,
       }}
     >
-      <Flex sx={{maxWidth: "layout", mx: "auto", alignItems: "center"}} {...props}>
-        <Box sx={{flex: '1 1 auto', justifyContent: "", margin: '3'}}>
-          <NavLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link" p={2}>
-            Register
-          </NavLink>
-          <NavLink href="#about" p={2}>
-            About
-          </NavLink>
-          <NavLink href="#faq" p={2}>
-            FAQ
-          </NavLink>
-          <NavLink href="#schedule" p={2}>
-            Schedule
-          </NavLink>
-          {/*<NavLink href="https://2021.hillshacks.com/" p={2}>
-            2021 Site
-          </NavLink>
-          <NavDropdown label="Previous Years">
-            <NavLink href="#!">
-              2020 
+      <Container>
+        <Flex sx={{maxWidth: "layout", mx: "auto", alignItems: "center"}} {...props}>
+          <Image src="/icon.svg" width="36"/>
+          <Box sx={{flex: '1 1 auto', justifyContent: "", margin: '3'}}>
+            <NavLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link" p={2}>
+              Register
             </NavLink>
-            <NavLink href="#!">
-              2019
+            <NavLink href="#about" p={2}>
+              About
             </NavLink>
-            <NavLink href="#!">
-              2018 
+            <NavLink href="#faq" p={2}>
+              FAQ
             </NavLink>
-            <NavLink href="#!">
-              2017
+            <NavLink href="#schedule" p={2}>
+              Schedule
             </NavLink>
-          </NavDropdown>*/}
-        </Box>
-        <ColorSwitcher mr={3}/>
-      </Flex>
+            {/*<NavLink href="https://2021.hillshacks.com/" p={2}>
+              2021 Site
+            </NavLink>
+            <NavDropdown label="Previous Years">
+              <NavLink href="#!">
+                2020 
+              </NavLink>
+              <NavLink href="#!">
+                2019
+              </NavLink>
+              <NavLink href="#!">
+                2018 
+              </NavLink>
+              <NavLink href="#!">
+                2017
+              </NavLink>
+            </NavDropdown>*/}
+          </Box>
+          <ColorSwitcher mr={3}/>
+        </Flex>
+      </Container>
     </Box>
   )
 }
