@@ -1,5 +1,6 @@
 import { Box, Image, Container, Heading, Button } from 'theme-ui';
 import { backgroundImage } from './background-image';
+import { mountains } from './mountains';
 
 const Hero = props => (
   <Box 
@@ -9,7 +10,10 @@ const Hero = props => (
       textAlign: 'center',
       position: 'relative',
       overflow: 'hidden',
-      backgroundImage: `${backgroundImage}, radial-gradient(ellipse at center bottom, #4F3714, #1B1A18)`,
+      backgroundImage: `${mountains}, ${backgroundImage}, radial-gradient(ellipse at center bottom, #4F3714, #1B1A18)`,
+      backgroundPosition: 'center bottom, left top',
+      backgroundRepeat: 'repeat-x, repeat',
+      backgroundSize: '600px, auto, auto',
       /*filter: "drop-shadow(0px 0px 16px rgba(255, 214, 0, .1))",
       WebkitFilter: "drop-shadow(0px 0px 16px rgba(255, 214, 0, .1))",*/
       /*style='filter: drop-shadow(0px 0px 16px rgba(255, 214, 0, .1)); WebkitFilter: drop-shadow(0px 0px 16px rgba(255, 214, 0, .1))'*/
