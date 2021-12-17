@@ -27,7 +27,7 @@ const Hero = props => (
         WebkitUserDrag: 'none'
       }}
     />*/}
-    <Container as="section" py={6} variant="copy" sx={{position: 'relative'}} {...props}>
+    <Container as="section" py={5} variant="copy" sx={{position: 'relative'}} {...props}>
       <Image
         src="/logo.png"
         alt="hillsHacks Logo"
