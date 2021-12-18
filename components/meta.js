@@ -44,12 +44,6 @@ const Meta = ({
       content={theme.colors.primary}
     />
     <link
-      key="safari_icon"
-      rel="mask-icon"
-      href={`${url}/safari-pinned-tab.svg`}
-      color={theme.colors.primary}
-    />
-    <link
       key="apple_icon"
       rel="apple-touch-icon"
       sizes="180x180"
