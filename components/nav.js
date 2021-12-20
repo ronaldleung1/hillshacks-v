@@ -21,7 +21,9 @@ const Nav = props => {
     >
       <Container>
         <Flex sx={{maxWidth: "layout", mx: "auto", alignItems: "center"}} {...props}>
-          <Image src="/icon.svg" width="36"/>
+          <NavLink href="#" sx={{height: "36px"}}>
+            <Image src="/icon.svg" width="36"/>
+          </NavLink>
           <Box sx={{flex: '1 1 auto', justifyContent: "", margin: '3'}}>
             <NavLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link" p={2}>
               Register
