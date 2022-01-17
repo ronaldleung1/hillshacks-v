@@ -11,7 +11,8 @@ import {
   Grid,
   Card,
   Flex,
-  Link
+  Link,
+  Alert
 } from 'theme-ui';
 import Nav from "../components/nav";
 import Hero from "../components/hero";
@@ -21,7 +22,12 @@ const Index = (props) => (
   <>
     <Nav />
     <Hero />
-
+    <Container as="section" mt={4} variant="copy" {...props}>
+      <Alert p={3} sx={{display: "flex"}}>
+        <Text mr={3}>📢</Text>
+        <Text sx={{flexGrow: 1}}>Due to ongoing COVID concerns, hillsHacks has been postponed. Sign up on the pre-registration form to be notified of the new date of the hackathon.</Text>
+      </Alert>
+    </Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{fontSize: "40px"}}>This is not your typical hackathon.</Heading>
       <Text as="p" sx={{fontSize: 2}} mb={3}><b>hillsHacks was born with a mission:</b> to show that computer science is something anyone can learn. It's more than memorizing technical jargon and stuffing code into machines. CS is for innovators, creators, problem solvers, artists, and <i>you</i>.</Text>
@@ -77,7 +83,7 @@ const Index = (props) => (
         </Box>
         <Box>
           <h2>When will hillsHacks be?</h2>
-          <p>The event will take place on <b>Sunday, February 6th</b> (exact time TBD). We've got an action-packed schedule ahead, so sign up now! {/*(see below for details)*/}</p>
+          <p>The event will take place during the spring of 2022 (exact date TBD). {/* We've got an action-packed schedule ahead, so sign up now! (see below for details)*/}</p>
         </Box>
         <Box>
           <h2>How much does this cost?</h2>

@@ -42,7 +42,7 @@ const Hero = props => (
         }}
       />
       <Heading mt={16} variant="subtitle" color="white"><b>Reaching New Heights</b></Heading>
-      <Heading variant="subtitle" color="white">February 6, 2022</Heading>
+      <Heading variant="subtitle" color="white">Spring 2022</Heading>
       <Button variant="lg" as="a" target="_blank" my={2}
     href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link">Pre-Register Now!</Button>
     </Container>
