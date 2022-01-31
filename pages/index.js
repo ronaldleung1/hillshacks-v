@@ -23,10 +23,6 @@ const Index = (props) => (
     <Nav />
     <Hero />
     <Container as="section" mt={4} variant="copy" {...props}>
-      <Alert p={3} sx={{display: "flex"}}>
-        <Text mr={3}>📢</Text>
-        <Text sx={{flexGrow: 1}}>Due to ongoing COVID concerns, hillsHacks has been postponed. Sign up on the pre-registration form to be notified of the new date of the hackathon.</Text>
-      </Alert>
     </Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{fontSize: "40px"}}>This is not your typical hackathon.</Heading>
@@ -83,7 +79,7 @@ const Index = (props) => (
         </Box>
         <Box>
           <h2>When will hillsHacks be?</h2>
-          <p>The event will take place during the spring of 2022 (exact date TBD). {/* We've got an action-packed schedule ahead, so sign up now! (see below for details)*/}</p>
+          <p>The event will take place on May 14th, 2022 (exact time TBD). {/* We've got an action-packed schedule ahead, so sign up now! (see below for details)*/}</p>
         </Box>
         <Box>
           <h2>How much does this cost?</h2>
