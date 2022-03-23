@@ -1,5 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
+
 import { 
   jsx,
   Box,
@@ -12,11 +13,22 @@ import {
   Card,
   Flex,
   Link,
-  Alert
+  Alert,
+  
 } from 'theme-ui';
+
+import React from 'react';
+
+
+
+
+
+import Faq from "../components/accordion";
 import Nav from "../components/nav";
 import Hero from "../components/hero";
-import React from 'react';
+
+
+
 
 const Index = (props) => (
   <>
@@ -67,47 +79,12 @@ const Index = (props) => (
       </Grid>
     </Container>
     <Container id="faq" as="section" py={4} {...props}>
-      <Heading variant="headline">FAQ</Heading>
-      <Grid sx={{columnGap: 4}} columns={[1, null, 2]}>
-        <Box>
-          <h2>Why come to hillsHacks?</h2>
-          <p>Can you spend a day without using some form of technology developed in the last 5 years? It would probably be difficult - technology has completely changed the way we live our lives. Regardless of your experience, you will learn something new at hillsHacks about how computer science is being used all around us - often in things we take for granted! All students grade 6 and up are welcome.</p>
-        </Box>
-        <Box>
-          <h2>Where will the event take place?</h2>
-          <p>hillsHacks is returning as a fully in-person event at Watchung Hills Regional High School!</p>
-        </Box>
-        <Box>
-          <h2>When will hillsHacks be?</h2>
-          <p>The event will take place on May 14th, 2022 (exact time TBD). {/* We've got an action-packed schedule ahead, so sign up now! (see below for details)*/}</p>
-        </Box>
-        <Box>
-          <h2>How much does this cost?</h2>
-          <p>hillsHacks is completely free!</p>
-        </Box>
-        <Box>
-          <h2>What if I don’t know anything about coding or computer science?</h2>
-          <p>No problem! We highly encourage beginners to come, and our workshops will give you opportunities to learn about fundamental CS concepts. After creating an idea as part of the no-code hackathon track, you'll be ready to implement it on your own!</p>
-        </Box>
-        <Box>
-          <h2>I’m an expert at coding. What do I get out of this event?</h2>
-          <p>Participate in the traditional hackathon track or take a look at some of our advanced workshops! Also, we recommend you to actively engage during our Panel Q&A session (this applies to beginners too!)</p>
-        </Box>
-        <Box>
-          <h2>Can I work as a team?</h2>
-          <p>Absolutely! As part of the hackathon you can work solo or in teams of up to four individuals. Teams will be formed prior to the event, so make sure all members sign up!</p>
-        </Box>
-        <Box>
-          <h2>When will registrations open?</h2>
-          <p>We will shortly be rolling out the full event registration, but for now you can pre-register so we can notify you when it opens!</p>
-        </Box>
-        {/*<Box>
-          <h2>When do I have to register by?</h2>
-          <p>The signup form will remain open until <b>June 4th</b> at noon. This is so we can get a better feel of who will be attending.</p>
-        </Box>*/}
-      </Grid>
+      <Heading variant="headline" class ="text-center">FAQ</Heading>
+        <Faq/>
       <br/>
+      
     </Container>
+    
     <Container id="schedule" as="section" sx={{textAlign: "center"}} py={4} {...props}>
       <Heading variant="headline" mb={4}>Schedule</Heading>
       <Text>Coming soon! Check back later for details.</Text>
