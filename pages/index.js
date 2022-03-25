@@ -149,7 +149,7 @@ const Index = (props) => (
     </Container>
     <footer sx={{textAlign: "center", padding: 4}}>
       <Text as="p" mb={2} sx={{fontSize: 1}}>Previous years: <Link href="https://2021.hillshacks.com/" ml={2}>2021</Link> | <Link href="https://2020.hillshacks.com/">2020</Link> | <Link href="https://2019.hillshacks.com/">2019</Link> | <Link href="https://github.com/googol88/hillshacks-v">2018</Link></Text>
-      <Text as="p" mb={2} sx={{fontSize: 1}}>Created with &#x3C;3 by hillsHacks. See the <Link href="https://github.com/googol88/hillshacks-v">source</Link>.</Text>
+      <Text as="p" mb={2} sx={{fontSize: 1}}>Created with &#x3C;3 by the Watchung Hills CS Club. See the <Link href="https://github.com/googol88/hillshacks-v">source</Link>.</Text>
       <Text as="p" sx={{fontSize: 1, color: "muted"}}>© Copyright 2022 hillsHacks</Text>
     </footer>
   </>
