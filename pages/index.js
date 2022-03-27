@@ -1,47 +1,59 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { 
+import {
   jsx,
   Box,
   Heading,
   Text,
-  Button, 
+  Button,
   Image,
   Container,
   Grid,
   Card,
   Flex,
   Link,
-  Alert,
-  
-} from 'theme-ui';
+} from 'theme-ui'
 
-import React from 'react';
+import React from 'react'
 
+import Faq from '../components/accordion'
+import Nav from '../components/nav'
+import Hero from '../components/hero'
 
-
-
-
-import Faq from "../components/accordion";
-import Nav from "../components/nav";
-import Hero from "../components/hero";
-
-
-
-
-const Index = (props) => (
+const Index = props => (
   <>
     <Nav />
     <Hero />
-    <Container as="section" mt={4} variant="copy" {...props}>
-    </Container>
+    <Container as="section" mt={4} variant="copy" {...props}></Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
-      <Heading variant="headline" sx={{fontSize: "40px"}}>This is not your typical hackathon.</Heading>
-      <Text as="p" sx={{fontSize: 2}} mb={3}><b>hillsHacks was born with a mission:</b> to show that computer science is something anyone can learn. It's more than memorizing technical jargon and stuffing code into machines. CS is for innovators, creators, problem solvers, artists, and <i>you</i>.</Text>
-      <Text as="p" sx={{fontSize: 2}} mb={3}>Rather than leave you alone expecting a full-fledged product launch at the end of the day, we'll guide you through the learning process with <b>workshops</b> from Watchung Hills alumni. Plus, we'll provide you one-on-one <b>mentorship</b> and an opportunity to listen in and ask questions about tech during our <b>Panel Q&A</b> session. Deviating from the traditional hackathon, there will be two tracks: <b>code</b> and <b>no-code</b>, with a greater emphasis on ideas and how technology can be used for good. Participants can win generous cash <b>prizes</b>, too!</Text>
-      <Text variant="lead"><b>This is the fifth iteration of hillsHacks, Watchung Hills' premier hackathon open to students grades 6 through 12.</b></Text>
-      <br/>
+      <Heading variant="headline" sx={{ fontSize: '40px' }}>
+        This is not your typical hackathon.
+      </Heading>
+      <Text as="p" sx={{ fontSize: 2 }} mb={3}>
+        <b>hillsHacks was born with a mission:</b> to show that computer science
+        is something anyone can learn. It's more than memorizing technical
+        jargon and stuffing code into machines. CS is for innovators, creators,
+        problem solvers, artists, and <i>you</i>.
+      </Text>
+      <Text as="p" sx={{ fontSize: 2 }} mb={3}>
+        Rather than leave you alone expecting a full-fledged product launch at
+        the end of the day, we'll guide you through the learning process with{' '}
+        <b>workshops</b> from Watchung Hills alumni. Plus, we'll provide you
+        one-on-one <b>mentorship</b> and an opportunity to listen in and ask
+        questions about tech during our <b>Panel Q&A</b> session. Deviating from
+        the traditional hackathon, there will be a no-code{' '}
+        <b>design challenge</b>, with a greater emphasis on ideas and how
+        technology can be used for good. Participants can win generous cash{' '}
+        <b>prizes</b>, too!
+      </Text>
+      <Text variant="lead">
+        <b>
+          This is the fifth iteration of hillsHacks, Watchung Hills' premier
+          hackathon open to students grades 6 through 12.
+        </b>
+      </Text>
+      <br />
     </Container>
     <Container as="section" py={4} variant="copy" {...props}>
       <Image
@@ -52,18 +64,18 @@ const Index = (props) => (
           boxShadow: 'card',
           borderRadius: 'extra',
           userDrag: 'none',
-          WebkitUserDrag: 'none'
+          WebkitUserDrag: 'none',
         }}
       />
-      <Grid sx={{columnGap: 3}} columns={[1, 2, 2]}>
+      <Grid sx={{ columnGap: 3 }} columns={[1, 2, 2]}>
         <Image
           src="/eventPhoto1.jpg"
-          alt="Event Photo 2"        
+          alt="Event Photo 2"
           sx={{
             boxShadow: 'card',
             borderRadius: 'extra',
             userDrag: 'none',
-            WebkitUserDrag: 'none'
+            WebkitUserDrag: 'none',
           }}
         />
         <Image
@@ -73,20 +85,27 @@ const Index = (props) => (
             boxShadow: 'card',
             borderRadius: 'extra',
             userDrag: 'none',
-            WebkitUserDrag: 'none'
+            WebkitUserDrag: 'none',
           }}
         />
       </Grid>
     </Container>
     <Container id="faq" as="section" py={4} {...props}>
-      <Heading variant="headline" class ="text-center">FAQ</Heading>
-        <Faq/>
-      <br/>
-      
+      <Heading variant="headline">FAQ</Heading>
+      <Faq />
+      <br />
     </Container>
-    
-    <Container id="schedule" as="section" sx={{textAlign: "center"}} py={4} {...props}>
-      <Heading variant="headline" mb={4}>Schedule</Heading>
+
+    <Container
+      id="schedule"
+      as="section"
+      sx={{ textAlign: 'center' }}
+      py={4}
+      {...props}
+    >
+      <Heading variant="headline" mb={4}>
+        Schedule
+      </Heading>
       <Text>Coming soon! Check back later for details.</Text>
       {/*<Container variant="copy" sx={{textAlign: "left"}}>
         <Event
@@ -135,24 +154,48 @@ const Index = (props) => (
     </Container>
     <Container as="section" py={4} {...props}>
       <Card>
-        <Flex sx={{flexWrap: 'wrap'}}>
-          <Box sx={{flex: '1 1 auto'}}>
-            <Heading as="h1" variant="headline">So...what are you waiting for?</Heading>
-            <Heading variant="subtitle">Registration is free and only takes a minute!</Heading>
+        <Flex sx={{ flexWrap: 'wrap' }}>
+          <Box sx={{ flex: '1 1 auto' }}>
+            <Heading as="h1" variant="headline">
+              So...what are you waiting for?
+            </Heading>
+            <Heading variant="subtitle">
+              Registration is free and only takes a minute!
+            </Heading>
           </Box>
-          <Box sx={{alignSelf: "center"}}>
-          <Button variant="lg" as="a" target="_blank"  mr={4}
-  href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link">Pre-Register Now</Button>
+          <Box sx={{ alignSelf: 'center' }}>
+            <Button
+              variant="lg"
+              as="a"
+              target="_blank"
+              mr={4}
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link"
+            >
+              Pre-Register Now
+            </Button>
           </Box>
         </Flex>
       </Card>
     </Container>
-    <footer sx={{textAlign: "center", padding: 4}}>
-      <Text as="p" mb={2} sx={{fontSize: 1}}>Previous years: <Link href="https://2021.hillshacks.com/" ml={2}>2021</Link> | <Link href="https://2020.hillshacks.com/">2020</Link> | <Link href="https://2019.hillshacks.com/">2019</Link> | <Link href="https://github.com/googol88/hillshacks-v">2018</Link></Text>
-      <Text as="p" mb={2} sx={{fontSize: 1}}>Created with &#x3C;3 by the Watchung Hills CS Club. See the <Link href="https://github.com/googol88/hillshacks-v">source</Link>.</Text>
-      <Text as="p" sx={{fontSize: 1, color: "muted"}}>© Copyright 2022 hillsHacks</Text>
+    <footer sx={{ textAlign: 'center', padding: 4 }}>
+      <Text as="p" mb={2} sx={{ fontSize: 1 }}>
+        Previous years:{' '}
+        <Link href="https://2021.hillshacks.com/" ml={2}>
+          2021
+        </Link>{' '}
+        | <Link href="https://2020.hillshacks.com/">2020</Link> |{' '}
+        <Link href="https://2019.hillshacks.com/">2019</Link> |{' '}
+        <Link href="https://github.com/googol88/hillshacks-v">2018</Link>
+      </Text>
+      <Text as="p" mb={2} sx={{ fontSize: 1 }}>
+        Created with &#x3C;3 by the Watchung Hills CS Club. See the{' '}
+        <Link href="https://github.com/googol88/hillshacks-v">source</Link>.
+      </Text>
+      <Text as="p" sx={{ fontSize: 1, color: 'muted' }}>
+        © Copyright 2022 hillsHacks
+      </Text>
     </footer>
   </>
 )
 
-export default Index;
+export default Index
