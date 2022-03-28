@@ -152,6 +152,18 @@ const Index = props => (
         />
       </Container>*/}
     </Container>
+    <Container
+      id="Sponsors"
+      as="section"
+      sx={{ textAlign: 'center' }}
+      py={4}
+      {...props}
+    >
+      <Heading variant="headline" mb={4}>
+        Sponsor
+      </Heading>
+      <Text>Interested in sponsoring? Shoot us an email at <Link href="mailto:sponsor@hillshacks.com">sponsor@hillshacks.com</Link>!</Text>
+    </Container>
     <Container as="section" py={4} {...props}>
       <Card>
         <Flex sx={{ flexWrap: 'wrap' }}>
