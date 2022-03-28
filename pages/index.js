@@ -160,7 +160,7 @@ const Index = props => (
       {...props}
     >
       <Heading variant="headline" mb={4}>
-        Sponsor
+        Sponsors
       </Heading>
       <Text>Interested in sponsoring? Shoot us an email at <Link href="mailto:sponsor@hillshacks.com">sponsor@hillshacks.com</Link>!</Text>
     </Container>
