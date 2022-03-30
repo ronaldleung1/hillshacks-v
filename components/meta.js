@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script'
 import theme from '../lib/theme'
 
 const makeTitle = (title, name) =>
@@ -67,7 +66,7 @@ const Meta = ({
     <link key="manifest" rel="manifest" href={`${url}/site.webmanifest`} />
     <link href="https://api.fontshare.com/css?f[]=general-sans@400,401,600&f[]=cabinet-grotesk@400,800&display=swap" rel="stylesheet" />
     {children}
-    <Script src='https://analytics.stacc.cc/api/script/dEt0JztJ88lj' />
+    <script src='https://analytics.stacc.cc/api/script/dEt0JztJ88lj'></script>
   </Head>
 )
 
