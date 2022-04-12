@@ -90,6 +90,16 @@ const Index = props => (
         />
       </Grid>
     </Container>
+    <Container as="section" variant="copy" py={4} {...props}>
+      <Card>
+        <Heading variant="headline" sx={{fontSize: "40px"}}>Details</Heading>
+        <br></br>
+        <Text><b>Where:</b> Watchung Hills Regional High School (108 Stirling Rd, Warren, NJ 07059)</Text><br/><br/>
+        <Text><b>When:</b> May 14th, 2022</Text><br/><br/>
+        <Text><b>Cost:</b> There will be an entry fee of $10. Tickets can be purchased online or paid at the door.</Text><br/><br/>
+        <Text><b>Who:</b> All middle and high school students are welcome to attend, regardless of experience!</Text>
+      </Card>
+    </Container>
     <Container id="faq" as="section" py={4} {...props}>
       <Heading variant="headline">FAQ</Heading>
       <Faq />
