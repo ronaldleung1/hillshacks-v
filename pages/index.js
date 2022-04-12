@@ -37,6 +37,7 @@ const Index = (props) => (
     <Container as="section" mt={4} variant="copy" {...props}>
     </Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
+      
       <Heading variant="headline" sx={{fontSize: "40px"}}>This is not your typical hackathon.</Heading>
       <Text as="p" sx={{fontSize: 2}} mb={3}><b>hillsHacks was born with a mission:</b> to show that computer science is something anyone can learn. It's more than memorizing technical jargon and stuffing code into machines. CS is for innovators, creators, problem solvers, artists, and <i>you</i>.</Text>
       <Text as="p" sx={{fontSize: 2}} mb={3}>Rather than leave you alone expecting a full-fledged product launch at the end of the day, we'll guide you through the learning process with <b>workshops</b> from Watchung Hills alumni. Plus, we'll provide you one-on-one <b>mentorship</b> and an opportunity to listen in and ask questions about tech during our <b>Panel Q&A</b> session. Deviating from the traditional hackathon, there will be two tracks: <b>code</b> and <b>no-code</b>, with a greater emphasis on ideas and how technology can be used for good. Participants can win generous cash <b>prizes</b>, too!</Text>
@@ -77,6 +78,16 @@ const Index = (props) => (
           }}
         />
       </Grid>
+    </Container>
+    <Container as="section" variant="copy" py={4} {...props}>
+      <Card>
+        <Heading variant="headline" sx={{fontSize: "40px"}}>Details</Heading>
+        <br></br>
+        <Text><b>Where:</b> Watchung Hills Regional High School (108 Stirling Rd, Warren, NJ 07059)</Text><br/><br/>
+        <Text><b>When:</b> May 14th, 2022</Text><br/><br/>
+        <Text><b>Cost:</b> There will be an entry fee of $10. Tickets can be purchased online or paid at the door.</Text><br/><br/>
+        <Text><b>Who:</b> All middle and high school students are welcome to attend, regardless of experience!</Text>
+      </Card>
     </Container>
     <Container id="faq" as="section" py={4} {...props}>
       <Heading variant="headline" class ="text-center">FAQ</Heading>
