@@ -28,7 +28,7 @@ const Hero = props => (
         }}
       />
       <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}><b>Reaching New Heights</b></Heading>
-      <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}>May 14th, 2022</Heading>
+      <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}>May 14th, 2022 • 11AM - 4PM</Heading>
       <Text mt={2} mb={4} sx={{display: "block", textShadow: "0 0 32px #000"}} color="white">In-Person, Watchung Hills Regional High School</Text>
       <Button variant="lg" as="a" target="_blank" my={2}
     href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link">Pre-Register Now!</Button>
