@@ -351,9 +351,9 @@
   version "12.1.5"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.1.5.tgz#a21ba6708022d630402ca2b340316e69a0296dfc"
 
-"@next/mdx@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.1.4.tgz#06a73b9d97b2a26c17e2f9e11974a7138e53d1a6"
+"@next/mdx@^12.1.5":
+  version "12.1.5"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.1.5.tgz#302fbf195b406d32423f6a0317771d3b27f88e8e"
 
 "@next/swc-android-arm-eabi@12.1.5":
   version "12.1.5"
