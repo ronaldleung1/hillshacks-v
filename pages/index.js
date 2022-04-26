@@ -171,7 +171,15 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Sponsors
       </Heading>
-      <Text>Interested in sponsoring? Shoot us an email at <Link href="mailto:sponsor@hillshacks.com">sponsor@hillshacks.com</Link>!</Text>
+      <a href="https://www.mongodb.com/" target="_blank">
+        <Image 
+            src="/mongoLogo.png"
+            sx={{
+              userDrag: 'none',
+              WebkitUserDrag: 'none',
+            }}
+          />
+      </a>
     </Container>
     <Container as="section" py={4} {...props}>
       <Card>
