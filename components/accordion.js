@@ -57,9 +57,17 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            hillsHacks will likely charge a small fee to attend. The amount has
-            not been finalized yet, but will be shared after the main
-            registration opens.
+            The entry fee for hillsHacks is <b>$10</b>. Payments are made through check - more details are in the registration form.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+      <AccordionItem>
+        <AccordionItemHeading>
+          <AccordionItemButton>Will there be swag?</AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            Yes! Every attendee will receive a hillsHacks T-shirt. Winners of the design challenge will also receive prizes!
           </p>
         </AccordionItemPanel>
       </AccordionItem>

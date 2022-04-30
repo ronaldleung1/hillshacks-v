@@ -13,6 +13,7 @@ import {
   Card,
   Flex,
   Link,
+  Alert
 } from 'theme-ui'
 
 import React from 'react'
@@ -25,7 +26,13 @@ const Index = props => (
   <>
     <Nav />
     <Hero />
-    <Container as="section" mt={4} variant="copy" {...props}></Container>
+    <Container as="section" mt={4} variant="copy" {...props}>
+      <Alert p={3} sx={{display: "flex"}}>
+        <Text mr={3}>📢</Text>
+        <Text sx={{flexGrow: 1}}>Full registrations are now open using the link above! Spots are limited, so sign up now!</Text>
+      </Alert>
+    </Container>
+    <Container as="section" variant="copy" {...props}></Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{ fontSize: '40px' }}>
         This is not your typical hackathon.
@@ -95,7 +102,7 @@ const Index = props => (
         <Heading variant="headline" sx={{fontSize: "40px"}}>Details</Heading>
         <Text as="p"><b>Where:</b> <Link href="https://goo.gl/maps/se4i7cSCAxGcRvYHA" target="_blank">Watchung Hills Regional High School</Link> (108 Stirling Rd, Warren, NJ 07059)</Text><br/>
         <Text as="p"><b>When:</b> May 14th, 2022 from 11:00AM-4:00PM</Text><br/>
-        <Text as="p"><b>Cost:</b> There will be an entry fee of $10. Tickets can be purchased online once full registration opens.</Text><br/>
+        <Text as="p"><b>Cost:</b> There will be an entry fee of $10 to cover costs for food and T-shirts for all attendees!</Text><br/>
         <Text as="p"><b>Who:</b> All middle and high school students are welcome to attend, regardless of experience!</Text>
       </Card>
     </Container>
