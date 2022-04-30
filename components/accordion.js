@@ -111,8 +111,11 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            We will shortly be rolling out the full event registration, but for
-            now you can pre-register so we can notify you when it opens!
+            Full registrations are now open! Go fill out{' '}
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSegUrlZpgpFQKBUR2205PvMVdK48YQtGJ9tdkPqO2N6Avs9ZQ/viewform?usp=sf_link">
+              this form
+            </Link>{' '}
+            and make sure to pay the registration fee.
           </p>
         </AccordionItemPanel>
       </AccordionItem>

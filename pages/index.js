@@ -198,9 +198,9 @@ const Index = props => (
               as="a"
               target="_blank"
               mr={4}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSegUrlZpgpFQKBUR2205PvMVdK48YQtGJ9tdkPqO2N6Avs9ZQ/viewform?usp=sf_link"
             >
-              Pre-Register Now
+              Register Now
             </Button>
           </Box>
         </Flex>
