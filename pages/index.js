@@ -13,7 +13,8 @@ import {
   Card,
   Flex,
   Link,
-  Alert
+  Alert,
+  useColorMode
 } from 'theme-ui'
 
 import React from 'react'
@@ -158,15 +159,15 @@ const Index = props => (
       <br></br><br></br>
       <a href="https://replit.com/" target="_blank">
         <Image 
-            src="replitLogo.png"
-            sx={{
-              width: '100%',
-              maxWidth: '360px',
-              userDrag: 'none',
-              WebkitUserDrag: 'none',
-              cursor: 'pointer',
-            }}
-          />
+          src={useColorMode()[0] === 'default' ? '/replit-light.png': '/replit-dark.png'}
+          sx={{
+            width: '100%',
+            maxWidth: '360px',
+            userDrag: 'none',
+            WebkitUserDrag: 'none',
+            cursor: 'pointer',
+          }}
+        />
       </a>
     </Container>
     <Container as="section" py={4} {...props}>
