@@ -130,7 +130,7 @@ const Index = props => (
               maxWidth: '720px',
               userDrag: 'none',
               WebkitUserDrag: 'none',
-              cursor: 'pointer',
+              boxShadow: 'elevated',
             }}
       />
     </Container>
