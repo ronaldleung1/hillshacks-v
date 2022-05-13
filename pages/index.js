@@ -122,7 +122,16 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Schedule
       </Heading>
-      <Text>Coming soon! Check back later for details.</Text>
+      <Image 
+            src="/schedule.png"
+            sx={{
+              width: '100%',
+              maxWidth: '720px',
+              userDrag: 'none',
+              WebkitUserDrag: 'none',
+              cursor: 'pointer',
+            }}
+      />
     </Container>
     <Container
       id="Sponsors"
