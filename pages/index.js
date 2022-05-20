@@ -86,7 +86,7 @@ const Index = props => (
           }}
         />
         <Image
-          src="/eventPhoto2.png"
+          src="/eventPhoto2.jpg"
           alt="Event Photo 3"
           sx={{
             boxShadow: 'card',
