@@ -351,9 +351,9 @@
   version "12.3.1"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.3.1.tgz#18266bd92de3b4aa4037b1927aa59e6f11879260"
 
-"@next/mdx@^13.4.3":
-  version "13.4.3"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.4.3.tgz#e5a9bfa5756b4b9602e2cba3392712a598953b22"
+"@next/mdx@^13.4.6":
+  version "13.4.6"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.4.6.tgz#beb1257357373b8652bedebea218cd38f762f3e7"
   dependencies:
     source-map "^0.7.0"
 
